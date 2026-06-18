@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Contact Us - Digital Dominance</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#F8FAFC;
+}
+
+/* HERO */
+
+.contact-hero{
+background:linear-gradient(135deg,#0F172A,#2563EB);
+padding:120px 20px;
+text-align:center;
+color:white;
+}
+
+.contact-hero h1{
+font-size:70px;
+margin-bottom:20px;
+}
+
+.contact-hero p{
+font-size:22px;
+opacity:.9;
+}
+
+/* CONTACT SECTION */
+
+.contact-section{
+padding:100px 80px;
+}
+
+.contact-container{
+display:grid;
+grid-template-columns:1fr 1.5fr;
+gap:50px;
+background:white;
+padding:50px;
+border-radius:25px;
+box-shadow:0 15px 40px rgba(0,0,0,0.08);
+}
+
+.contact-info h2{
+font-size:40px;
+margin-bottom:25px;
+color:#0F172A;
+}
+
+.contact-info p{
+font-size:18px;
+color:#64748B;
+margin-bottom:20px;
+line-height:1.8;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+width:100%;
+padding:16px;
+margin-bottom:20px;
+border:1px solid #CBD5E1;
+border-radius:10px;
+font-size:16px;
+transition:.3s;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus{
+outline:none;
+border-color:#2563EB;
+box-shadow:0 0 15px rgba(37,99,235,0.15);
+}
+
+.contact-form textarea{
+height:160px;
+resize:none;
+}
+
+.contact-form button{
+width:100%;
+padding:16px;
+border:none;
+border-radius:10px;
+background:#2563EB;
+color:white;
+font-size:18px;
+font-weight:600;
+cursor:pointer;
+transition:.3s;
+}
+
+.contact-form button:hover{
+background:#0F172A;
+transform:translateY(-5px);
+}
+
+/* WHY WORK WITH US */
+
+.why-contact{
+padding:100px 80px;
+text-align:center;
+}
+
+.why-contact h2{
+font-size:50px;
+color:#0F172A;
+margin-bottom:15px;
+}
+
+.why-contact p{
+color:#64748B;
+font-size:18px;
+margin-bottom:50px;
+}
+
+.why-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.why-card{
+background:white;
+padding:35px;
+border-radius:20px;
+transition:.3s;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.why-card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 30px rgba(37,99,235,0.15);
+}
+
+.why-card h3{
+margin-bottom:15px;
+color:#0F172A;
+}
+
+.why-card p{
+margin:0;
+}
+
+/* MAP */
+
+.map-section{
+padding:0 80px 100px;
+}
+
+.map-section iframe{
+width:100%;
+height:450px;
+border:none;
+border-radius:25px;
+}
+
+/* CTA */
+
+.cta-section{
+background:linear-gradient(135deg,#0F172A,#2563EB);
+padding:100px 20px;
+text-align:center;
+color:white;
+}
+
+.cta-section h2{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.cta-section p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.cta-btn{
+display:inline-block;
+padding:15px 40px;
+background:white;
+color:#2563EB;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+transition:.3s;
+}
+
+.cta-btn:hover{
+background:#0F172A;
+color:white;
+transform:translateY(-5px);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.contact-container{
+grid-template-columns:1fr;
+}
+
+.why-grid{
+grid-template-columns:1fr;
+}
+
+.contact-section,
+.why-contact,
+.map-section{
+padding:50px 20px;
+}
+
+.contact-hero h1{
+font-size:45px;
+}
+
+.cta-section h2{
+font-size:35px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        <img src="images/logo.png" alt="Logo">
+
+        <div class="logo-text">
+            <h2>Digital Dominance</h2>
+            <p>Marketing Agency</p>
+        </div>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+
+    <a href="#" class="btn">Book Consultation</a>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="contact-hero">
+
+<h1>Contact Us</h1>
+
+<p>
+Let's discuss your next digital growth project and
+take your business to the next level.
+</p>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact-section">
+
+<div class="contact-container">
+
+<div class="contact-info">
+
+<h2>Get In Touch</h2>
+
+<p>📍 Greater Noida, Uttar Pradesh</p>
+
+<p>📞 +91 87663 13598</p>
+
+<p>✉ digitaldominance06@gmail.com</p>
+
+<p>🕒 Mon - Sat | 9:00 AM - 6:00 PM</p>
+
+<p>
+We help businesses grow through SEO,
+Social Media Marketing, Google Ads,
+Lead Generation and Website Development.
+</p>
+
+</div>
+
+<div class="contact-form">
+
+<form id="contact-form">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Your Email" required>
+
+<input type="tel" name="phone" placeholder="Phone Number">
+
+<select name="service">
+
+<option>Select Service</option>
+<option>SEO Optimization</option>
+<option>Google Ads</option>
+<option>Social Media Marketing</option>
+<option>Website Development</option>
+<option>Content Marketing</option>
+<option>Lead Generation</option>
+
+</select>
+
+<textarea name="message" placeholder="Your Message"></textarea>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- WHY WORK WITH US -->
+
+<section class="why-contact">
+
+<h2>Why Work With Us?</h2>
+
+<p>We focus on growth, performance and client success.</p>
+
+<div class="why-grid">
+
+<div class="why-card">
+<h3>🚀 Fast Response</h3>
+<p>We respond quickly and understand your business needs.</p>
+</div>
+
+<div class="why-card">
+<h3>📈 Proven Strategies</h3>
+<p>Data-driven marketing campaigns that deliver results.</p>
+</div>
+
+<div class="why-card">
+<h3>🤝 Dedicated Support</h3>
+<p>Personalized guidance and support for every client.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- MAP -->
+
+<section class="map-section">
+
+<iframe
+src="https://maps.google.com/maps?q=greater%20noida&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta-section">
+
+<h2>Ready To Grow Your Business?</h2>
+
+<p>
+Let's create a powerful digital marketing strategy
+that drives real results.
+</p>
+
+<a href="#" class="cta-btn">
+Get Free Consultation
+</a>
+
+</section>
+<footer class="footer">
+
+    <div class="footer-grid">
+
+        <div>
+            <h3>Digital Dominance</h3>
+            <p>
+                Helping businesses dominate the digital world through
+                innovative marketing strategies.
+            </p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Services</h3>
+            <ul>
+                <li>SEO</li>
+                <li>Social Media Marketing</li>
+                <li>Google Ads</li>
+                <li>Website Development</li>
+            </ul>
+        </div>
+
+    </div>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+
+emailjs.init("wsOlsjy38G961GQdK");
+
+document.getElementById("contact-form").addEventListener("submit", function(e){
+
+e.preventDefault();
+
+const form = this;
+
+const data = {
+name: form.name.value,
+email: form.email.value,
+phone: form.phone.value,
+service: form.service.value,
+message: form.message.value
+};
+
+emailjs.sendForm(
+"service_kxrmx4o",
+"template_977a9rc",
+form
+)
+.then(function(){
+
+fetch("https://script.google.com/macros/s/AKfycbzJvu0Vb98lBjQVLNHeqifoiHjcMoUNUaeEPtG21nX7OCt2LVLu-0tuRY3wF04tGfw8pQ/exec",{
+method:"POST",
+body:JSON.stringify(data)
+});
+
+alert("Message Sent Successfully!");
+
+form.reset();
+
+})
+.catch(function(error){
+
+alert("Failed to send message!");
+console.log(error);
+
+});
+
+});
+
+</script>
+</body>
+</html>
